@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cheapweb/naulobazar.cheapwebsitenepal.com/
+    - /bin/cp * $DEPLOYPATH
