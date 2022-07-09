@@ -4619,7 +4619,7 @@ label:hover:before {
     border-top: none;
   }
 }
-
+/* 
 #loader-wrapper {
   position: fixed;
   top: 0;
@@ -4661,7 +4661,7 @@ label:hover:before {
 .loaded #loader-wrapper .loader-section.section-right {
   transform: translateX(100%);
   transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
+} */
 
 .ps-modal {
   position: fixed;
@@ -6562,7 +6562,7 @@ label:hover:before {
   display: inline-flex;
   align-items: center;
 }
-.menu > li.has-mega-menu a.nav-link{font-size:16px; display: flex;}
+.menu > li.has-mega-menu a.nav-link{font-size:14px; display: flex;}
 .menu > li.has-mega-menu i.icon-text-align-left{font-size:24px;}
 .menu > li.has-mega-menu .mega-menu {
   position: absolute;
@@ -6639,7 +6639,7 @@ label:hover:before {
   display: block;
   padding: 15px 20px 15px 0;
   line-height: 20px;
-  font-size: 14px;
+  font-size: 12px;
   color: #222;
   text-transform: uppercase;
   font-weight: bold;
