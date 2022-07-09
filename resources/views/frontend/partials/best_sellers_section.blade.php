@@ -46,7 +46,7 @@
                     <h3 class="component__title">Our Top Vendors</h3>
                    <a class="component__view" href="{{route('seller')}}" style=" font-size: 15px; letter-spacing: 0.014em; text-transform: uppercase; font-weight: 600; color: #006699; " >View All <i class="icon-chevron-right"></i></a>
                 </div>
-                <div class="owl-carousel" data-owl-auto="true" data-owl-loop="true" data-owl-speed="8000" data-owl-gap="10" data-owl-nav="true" data-owl-dots="true" data-owl-item="4" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="2" data-owl-item-lg="4" data-owl-item-xl="4" data-owl-duration="1000" data-owl-mousedrag="on">
+                <div class="owl-carousel" data-owl-auto="true" data-owl-loop="true" data-owl-speed="8000" data-owl-gap="10" data-owl-nav="true" data-owl-dots="false" data-owl-item="4" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="2" data-owl-item-lg="4" data-owl-item-xl="4" data-owl-duration="1000" data-owl-mousedrag="on">
                     @php
                     $count = 0;
                 @endphp
@@ -86,23 +86,23 @@
                             <div class="item__footer"><a class="item__store" href="{{ route('shop.visit', $value->userdetails->usershop->slug) }}">Visit Store</a>
                                 <div class="item__avatar">
                                     <div class="avatar vendor-avatar">
-                                      
+
                             @if($value->user)
                                       @if($value->user->avatar_original != '')
                                       	<img src="{{asset($value->user->avatar_original)}}" alt="{{ $value->userdetails->usershop->name }} " />
                                       @else
-                                      	<img src="{{asset('shop/logo/naulo.jpg')}}" alt="{{ $value->userdetails->usershop->name }} " />      
+                                      	<img src="{{asset('shop/logo/naulo.jpg')}}" alt="{{ $value->userdetails->usershop->name }} " />
                                       @endif
                             @else
                                       @if($value->user->avatar != '')
                                       	<img src="{{asset($value->user->avatar)}}" alt="{{ $value->userdetails->usershop->name }} " />
                                       @else
-                                      	<img src="{{asset('shop/logo/naulo.jpg')}}" alt="{{ $value->userdetails->usershop->name }} " />                                      
+                                      	<img src="{{asset('shop/logo/naulo.jpg')}}" alt="{{ $value->userdetails->usershop->name }} " />
                                       @endif
                             @endif
                                       </div>
                                 </div>
-                                  
+
                             </div>
                     </div>
                         @endif

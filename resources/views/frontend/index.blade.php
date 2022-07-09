@@ -498,7 +498,7 @@ clearInterval(x);
                     </div>
                     <div class="recommendations__content">
                         <div class="owl-carousel" data-owl-auto="true" data-owl-loop="false" data-owl-speed="15000"
-                            data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="5" data-owl-item-xs="2"
+                            data-owl-gap="0" data-owl-nav="true" data-owl-dots="false" data-owl-item="5" data-owl-item-xs="2"
                             data-owl-item-sm="2" data-owl-item-md="3" data-owl-item-lg="5" data-owl-duration="1000"
                             data-owl-mousedrag="on">
                             @foreach ($recommended as $product)
