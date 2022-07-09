@@ -69,7 +69,7 @@
                             <img src="{{ ($value->userdetails->usershop->logo == '')? (asset('shop/logo/naulo.jpg')) : (asset($value->userdetails->usershop->logo)) }}" alt="alt" />
                                 <div class="item__content">
                                     <h5 class="item__title">{{ $value->userdetails->usershop->name }} </h5>
-                                    <div class="item__rating">
+                                    {{-- <div class="item__rating">
                                         <select class="rating-stars">
                                             <option value="1">1</option>
                                             <option value="2">2</option>
@@ -77,10 +77,10 @@
                                             <option value="4">4</option>
                                             <option value="5">5</option>
                                         </select>
-                                    </div>
+                                    </div> --}}
                                     <div class="item__street">{{ $value->userdetails->usershop->address }}</div>
                                     {{-- <div class="item__address">44600, Kathmandu, Nepal</div> --}}
-                                    <div class="item__phone"> <i class="fa fa-phone"></i>{{ $value->userdetails->phone }}</div>
+                                    {{-- <div class="item__phone"> <i class="fa fa-phone"></i>{{ $value->userdetails->phone }}</div> --}}
                                 </div>
                             </div>
                             <div class="item__footer"><a class="item__store" href="{{ route('shop.visit', $value->userdetails->usershop->slug) }}">Visit Store</a>
