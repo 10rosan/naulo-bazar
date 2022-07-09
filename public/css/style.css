@@ -12626,7 +12626,7 @@ label:hover:before {
 }
 
 .section--storeList .storeList__item div, .section--storeList .storeList__item i {
-  color: white;
+  color: #333;
   font-size: 14px;
   font-weight: 500;
 }
