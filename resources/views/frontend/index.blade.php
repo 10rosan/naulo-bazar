@@ -521,8 +521,8 @@ clearInterval(x);
                                             }
                                         @endphp
                                             <img class="ps-product__thumbnail" src="{{ asset($product->thumbnail_img) }}" alt="alt" /></a>
-                                                <a class="ps-product__expand" href="" onclick="addToWishList({{ $product->id }})"><i
-                                                    class="icon-heart"></i></a>
+                                                {{-- <a class="ps-product__expand" href="" onclick="addToWishList({{ $product->id }})"><i
+                                                    class="icon-heart"></i></a> --}}
                                         @if ($product->tags == 'New')
                                             <span class="ps-badge ps-product__new">New
                                             </span>
@@ -589,11 +589,17 @@ clearInterval(x);
                                             <!--</p>-->
 
                                         </div>
-                                        <div class="ps-product__footer">
+                                        {{-- <div class="ps-product__footer">
 
                                             <button class="ps-product__addcart" onclick="showAddToCartModal({{ $product->id }})"><i class="icon-cart" ></i>Add to
                                                 cart</button>
 
+                                        </div> --}}
+
+                                        <div class="ps-product__floating-btn">
+                                            <a class=" href="" onclick="addToWishList({{ $product->id }})"><i
+                                                class="icon-heart"></i></a>
+                                            <button class="" onclick="showAddToCartModal({{ $product->id }})"><i class="icon-cart" ></i></button>
                                         </div>
 
                                     </div>

@@ -2383,7 +2383,9 @@ label:hover:before {
   padding: 30px 10px 15px;
   position: relative;
   transition: all .3s ease-in-out;
-  background-color: transparent;
+  background-color: #fff;
+  margin: 20px 10px;
+  border-radius: 4px;
 }
 
 .ps-product--standard .ps-product__thumbnail {
@@ -10264,8 +10266,6 @@ label:hover:before {
 }
 
 .section-recommendations--default .recommendations__content {
-  background-color: white;
-  border: 1px solid #eeeeee;
   position: relative;
 }
 
