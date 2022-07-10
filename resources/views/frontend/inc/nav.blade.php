@@ -416,7 +416,7 @@ $generalsetting = \App\GeneralSetting::first();
                         </ul>
                         <div class="navigation-text">
                             <ul class="menu">
-                                <li class="menu-item-has-children has-mega-menu"><a class="nav-link" href="{{ route('becomea.vendor')  }}">Become A Vendor</a>
+                                <li class="menu-item-has-children has-mega-menu"><a class="nav-link" href="/shops/create">Become A Vendor</a>
                                 </li>
                             </ul>
                         </div>
