@@ -40,7 +40,7 @@ $generalsetting = \App\GeneralSetting::first();
                                             <li> <a href="{{ route('shops.create') }}">Become a Vendor</a>
                                             </li>
                                             @endif
-                                         
+
                                             @foreach (\App\Link::get()->take(3) as $key => $link)
                                             <li> <a href="{{ $link->url }}">{{ $link->name }}</a>
                                             </li>
@@ -159,17 +159,17 @@ $generalsetting = \App\GeneralSetting::first();
                 </div>
             </div>
             <button class="btn scroll-top"><i class="icon-chevron-up"></i></button>
-            <div class="ps-preloader" id="preloader">
+            {{-- <div class="ps-preloader" id="preloader">
                 <div class="ps-preloader-section ps-preloader-left"></div>
                 <div class="ps-preloader-section ps-preloader-right"></div>
-            </div>
+            </div> --}}
             <div class="ps-category--mobile">
                 <div class="category__header">
                     <div class="category__title">All Category</div><span class="category__close"><i class="icon-cross"></i></span>
                 </div>
                 <div class="category__content">
                     <ul class="menu--mobile">
-                   
+
                          @foreach (\App\Category::all()->take(11) as $key => $category)
                                         @php
                                             $brands = array();
@@ -185,16 +185,16 @@ $generalsetting = \App\GeneralSetting::first();
                                             </ul>
                                         </li>
                                         @endforeach
-                   
+
                     </ul>
                 </div>
             </div>
             <nav class="navigation--mobile">
                 <div class="navigation__header">
                     <div class="navigation__select">
-                      
+
                     </div>
-                  
+
                   @auth
                     <div class="navigation-title">
                         <button class="close-navbar-slide"><i class="icon-arrow-left"></i></button>
@@ -210,13 +210,13 @@ $generalsetting = \App\GeneralSetting::first();
         						<a class="dropdown-item" href="shopping-cart.html">Orders</a>
         						<a class="dropdown-item" href="{{ route('wishlists.index') }}">Wishlist</a>
         						<a class="dropdown-item" href="/profile">Shipping Address</a>
-        						<a class="dropdown-item" href="{{ route('logout') }}">log out</a>       						
-        						
+        						<a class="dropdown-item" href="{{ route('logout') }}">log out</a>
+
         					</div> --}}
                         </div>
                     </div>
                   @else
-                  
+
                       <div class="navigation-title">
                         <button class="close-navbar-slide"><i class="icon-arrow-left"></i></button>
                         <div><span> <i class="icon-user"></i>Hi, </span>
@@ -226,17 +226,17 @@ $generalsetting = \App\GeneralSetting::first();
                             <div class="dropdown-menu" aria-labelledby="dropdownAccount">
         						<a class="dropdown-item" href="{{ route('user.login') }}"><b>Login</b></a>
         						<a class="dropdown-item" href="{{ route('user.registration') }}">Register</a>
-        		
-        						
+
+
         					</div>
                         </div>
                     </div>
-                  
+
                   @endauth
-                  
-                  
-                  
-                  
+
+
+
+
                 </div>
                 <div class="navigation__content">
                     <ul class="menu--mobile">

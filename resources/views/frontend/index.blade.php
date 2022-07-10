@@ -785,6 +785,77 @@ clearInterval(x);
                     href="{{url('become-a-vendor')}}">Register An Account</a>
             </div>
         </section>
+
+        <section class="ps-clients--logos">
+            <div class="container">
+                <div class="component__header">
+                    <h3 class="component__title">Our Clients</h3>
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-2 col-md-4 col-sm-6 p-0">
+                        <div class="client-image-wrapper">
+                            <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/client-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 p-0">
+                        <div class="client-image-wrapper">
+                            <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/client-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 p-0">
+                        <div class="client-image-wrapper">
+                            <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/client-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 p-0">
+                        <div class="client-image-wrapper">
+                            <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/client-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 p-0">
+                        <div class="client-image-wrapper">
+                            <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/client-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 p-0">
+                        <div class="client-image-wrapper">
+                            <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/client-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 p-0">
+                        <div class="client-image-wrapper">
+                            <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/client-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 p-0">
+                        <div class="client-image-wrapper">
+                            <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/client-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 p-0">
+                        <div class="client-image-wrapper">
+                            <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/client-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 p-0">
+                        <div class="client-image-wrapper">
+                            <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/client-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 p-0">
+                        <div class="client-image-wrapper">
+                            <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/client-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 p-0">
+                        <div class="client-image-wrapper">
+                            <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/client-1.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
         <div class="modal fade" id="popupQuickview" data-backdrop="static" data-keyboard="false" tabindex="-1"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl ps-quickview">
