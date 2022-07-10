@@ -6201,13 +6201,17 @@ label:hover:before {
 
 .scroll-top {
   display: none;
-  background-color: #222;
-  border-radius: 3px;
-  width: 30px;
-  height: 30px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+  position:fixed!important;
+	width:40px;
+	height:40px;
+	bottom:40px;
+	right:40px;
+	background-color:#FA6A31;
+	color:#FFF;
+	border-radius:50px!important;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+  float: right;
 }
 
 .scroll-top i {
@@ -8092,7 +8096,7 @@ label:hover:before {
     text-align: right;
   }
   .ps-footer .ps-footer__copyright {
-    padding-bottom: 40px;
+    padding-bottom: 0px;
   }
 }
 
@@ -8230,7 +8234,7 @@ label:hover:before {
 .ps-footer--categories {
   display: none;
   padding: 40px 0;
-  border-bottom: 1px solid #dddddd;
+  /* border-bottom: 1px solid #dddddd; */
 }
 
 .ps-footer--categories .categories__list {
