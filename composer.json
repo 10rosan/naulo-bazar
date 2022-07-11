@@ -22,6 +22,7 @@
 		"laravel/tinker": "^1.0",
 		"lcobucci/jwt": "3.3.3",
 		"maatwebsite/excel": "^3.1",
+		"mehedi-iitdu/core-component-repository": "^1.8",
 		"nesbot/carbon": "^2.35",
 		"netshell/paypal": "dev-master",
 		"nexmo/laravel": "^2.2",
