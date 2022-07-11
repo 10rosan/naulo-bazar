@@ -12,6 +12,7 @@
         </div>
     </div>
 @endif
+
 @if(Auth::user()->user_type == 'admin' || in_array('1', json_decode(Auth::user()->staff->role->permissions)))
 <div class="row">
     <div class="col-md-6">
